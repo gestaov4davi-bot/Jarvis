@@ -2,3 +2,7 @@
 .venv/
 __pycache__/
 *.pyc
+
+turns_*.json
+briefing_brezolin.json
+*.parsed.json
