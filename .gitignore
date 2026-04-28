@@ -6,3 +6,8 @@ __pycache__/
 turns_*.json
 briefing_brezolin.json
 *.parsed.json
+
+# PyInstaller build artefacts
+dist/
+build/
+*.spec
