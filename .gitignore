@@ -1,8 +1,14 @@
 # ── Secrets (CRÍTICO — chaves API) ───────────────────────────────────────────
 .env
 .env.local
+.env.distribuir
+.env.*
 *.key
 *.pem
+# Arquivos avulsos com chaves/secrets na raiz (LGPD/credenciais)
+Chave*.txt
+chave*.txt
+config-chaves-*.zip
 
 # ── Python ────────────────────────────────────────────────────────────────────
 .venv/
@@ -31,6 +37,8 @@ build/
 *.bak
 *.backup
 *~
+.git.backup-pre-filter/
+.git.*/
 
 # ── Lixo do Windows / IDEs ────────────────────────────────────────────────────
 Thumbs.db
