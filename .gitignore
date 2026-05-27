@@ -1,13 +1,49 @@
+# ── Secrets (CRÍTICO — chaves API) ───────────────────────────────────────────
 .env
+.env.local
+*.key
+*.pem
+
+# ── Python ────────────────────────────────────────────────────────────────────
 .venv/
 __pycache__/
 *.pyc
+*.pyo
 
+# ── Dados de cliente (LGPD CRÍTICO — não publicar jamais) ────────────────────
+# HTMLs do Alfred com nome/empresa/dor de prospects reais
+briefings/
+# JSONs e PDFs de calls reais (transcrição completa)
+calls/
+# PDFs do Gemini Meet Notes
+externas/
+# Buffers de turnos
 turns_*.json
-briefing_brezolin.json
 *.parsed.json
+briefing_brezolin.json
 
-# PyInstaller build artefacts
+# ── PyInstaller artefatos (regeneráveis pelo publish.py) ─────────────────────
 dist/
 build/
-*.spec
+# jarvis.spec FICA versionado (é config, não artefato)
+
+# ── Backups locais ────────────────────────────────────────────────────────────
+*.bak
+*.backup
+*~
+
+# ── Lixo do Windows / IDEs ────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+desktop.ini
+.vscode/
+.idea/
+Novo\(a\)*.txt
+Novo\(a\)*.py
+
+# ── Releases zipados (vão pro GitHub Releases, não pro repo) ──────────────────
+Jarvis-v*.zip
+
+# ── Logs e debug ──────────────────────────────────────────────────────────────
+build_log.txt
+*.log
