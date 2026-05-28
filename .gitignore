@@ -55,3 +55,18 @@ Jarvis-v*.zip
 # ── Logs e debug ──────────────────────────────────────────────────────────────
 build_log.txt
 *.log
+
+# ── [v2.8] FONTE/IP — repo público é SÓ distribuição (licenses.json + VERSION) ──
+# Código-fonte e metodologia NUNCA vão pro repo público. Ficam local + backup.
+*.py
+*.md
+*.spec
+*.html
+*.pdf
+*.bat
+*.zip
+*.ico
+*.jpg
+*.png
+requirements.txt
+assets/
