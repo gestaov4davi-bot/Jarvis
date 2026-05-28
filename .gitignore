@@ -68,5 +68,6 @@ build_log.txt
 *.ico
 *.jpg
 *.png
+*.txt
 requirements.txt
 assets/
