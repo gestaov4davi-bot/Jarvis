@@ -1,7 +1,8 @@
 {
-  "updated_at": "2026-05-27T16:45:41.695606Z",
+  "updated_at": "2026-05-28T20:42:04.489315Z",
   "valid_hashes": [
-    "c64ed5fd61f8f303f44b4da9f87f085c8f5ca5960665e17eb1dc15545b589116"
+    "c64ed5fd61f8f303f44b4da9f87f085c8f5ca5960665e17eb1dc15545b589116",
+    "7becc681315cd1e1561e2dd4237c76ed4c1f1bef5460e7404858d262288a6b33"
   ],
   "notes": "Lista de hashes SHA-256 de chaves de licenca autorizadas. NUNCA armazena chaves em texto puro."
 }
